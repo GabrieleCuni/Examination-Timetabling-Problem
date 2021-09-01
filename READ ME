@@ -1,0 +1,23 @@
+******Osservazioni******
+
+Le istanze 6 e 2 sono le più lente a generare soluzioni per l'algoritmo
+La istanza 1 genera 3600 iterazioni
+La istanza 2 non ne ho idea ma a volte fa solo 4 iterazione a volte 14
+
+La istanza 6 è lunga perchè è enorme e i cromosomi sono lunghissimi
+La istanza 6 si blocca malissimo a volte
+La istanza 1 e la 7 non fanno quasi mai TS
+
+******Possibili step******
+
+Introdurre soluzioni unfeasible se dopo un po' non riesco a generare una soluzione migliore o a generarne una feasible
+Parallel computing con un tread che scrive semplicemente le soluzioni su file
+
+******Cose già fatte******
+
+Ogni tanto(?) è applicato un tabù search ai figli generati con il GA
+La funzione recorsiva non parte se (?)
+
+
+******Perché succede*******
+che la soluzione migliore rimane la stessa per tante iterazioni
